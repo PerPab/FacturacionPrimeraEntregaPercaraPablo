@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.coderhouse</groupId>
-	<artifactId>adm</artifactId>
+	<artifactId>facturacion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>adm</name>
+	<name>facturacion</name>
 	<description>Primera entrega para Coder</description>
 	<url/>
 	<licenses>
@@ -44,22 +44,15 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>6.4.4.Final</version>
 		</dependency>
-		<dependency>
-			<groupId>com.cursojava</groupId>
-			<artifactId>clases</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
+		
+
 	</dependencies>
 
 	<build>
